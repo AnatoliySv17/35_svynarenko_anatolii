@@ -1,7 +1,7 @@
 # 35_svyanrenko_anatolii
 ----
 + [TASK01](#TASK01)
-
++ [TASK02](#TASK02)
 ----
 
 ## TASK01:
@@ -86,7 +86,7 @@ public class PhysicsBody implements Serializable {
 
 2. Використовуючи агрегування, розробив клас для знаходження рішення задачі.
 
-# 1. Код PhysicsCalculator:
+# 2. Код PhysicsCalculator:
  ``` java
 import java.io.Serializable;
 
@@ -125,7 +125,7 @@ public class PhysicsCalculator implements Serializable {
 
 3. Розробив клас для демонстрації в діалоговому режимі збереження та відновлення стану об'єкта, використовуючи серіалізацію.
 
-# 1. Код PhysicsDemo:
+# 3. Код PhysicsDemo:
  ``` java
 import java.util.Scanner;
 
@@ -160,7 +160,7 @@ public class PhysicsDemo {
 
 4. Розробив клас для тестування коректності результатів обчислень та серіалізації/десеріалізації.
 
-# 1. Код PhysicsTest:
+# 4. Код PhysicsTest:
  ``` java
 import java.io.*;
 
@@ -213,9 +213,9 @@ public class PhysicsTest {
 ![](Task02/Task02_2.png)
 
 **P.S.** Для написання коду я імпортував стандартні бібліотеки Java, такі як:
-    * **```java.io``` - містить класи для роботи з веденням/виведенням даних в програмі**
-    * **```java.io.Serializable``` - використав даний інтерфейс для можливості серіалізації об'єктів класу ```PhysicsBody```**
-    * **```java.util.Scanner``` - використав його для зчитування користувацького вводу з консолі.**
+    * **```java.io``` - містить класи для роботи з веденням/виведенням даних в програмі**;
+    * **```java.io.Serializable``` - використав даний інтерфейс для можливості серіалізації об'єктів класу ```PhysicsBody```**;
+    * **```java.util.Scanner``` - використав його для зчитування користувацького вводу з консолі.**;
 
 # Скрін роботи готового продукту:
 ![](Task02/Task02_1.png)
